@@ -15,28 +15,28 @@ body
     height:80%;
     bottom:0px;
 }
-/*elementos dentro del left*/
+/*elementos dentro del right*/
 .playpause
 {
-    float:left;
+    float:right;
     margin-top:5%;
     width:40%;
 }
     .play
     {
-        float:left;
+        float:right;
         height:40px;
         width:40px;
     }
     .reiniciar
     {
-        float:left;
+        float:right;
         height:40px;
         width:40px;
     }
     .opciones
     {
-        float:left;
+        float:right;
         height:40px;
         width:40px;
     }
@@ -60,23 +60,23 @@ body
     width:120px;
     height:120px;
 }
-/*Elementos dentro del right*/
+/*Elementos dentro del left*/
 .controlpanel
 {
-    float:right;
-    margin-right:5%;
+    float:left;
+    margin-left:5%;
     margin-top:200px;
     width:65px;
 }
     .gasolina
     {
-        float:right;
+        float:left;
         width:20px;
         height:20px;
     }
     .velocidad
     {
-        float:right;
+        float:left;
         margin-left:3%;
         margin-right:3%;
         width:20px;
@@ -84,8 +84,7 @@ body
     }
     .altura
     {
-        float:right;
+        float:left;
         width:20px;
         height:20px;
     }
-
