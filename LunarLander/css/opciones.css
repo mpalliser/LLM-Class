@@ -1,0 +1,22 @@
+body,html
+{
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+body 
+{
+    background-image: url("../img/background.png");
+}
+.middle
+{
+    position:absolute;
+    top:45%;
+    left:42%;
+    align-content:center;
+}
+.credits
+{
+    float:right;
+    color:yellow;
+}
