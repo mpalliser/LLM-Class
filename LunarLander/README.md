@@ -34,8 +34,12 @@ En general no me han pedido específicamente el tamaño ni de la nave ni de los 
 
 
 ##Versión vertical
-Para esta versión, la base del html/css es la misma lo único que __he tenido que hacer pequeñas modificaciones __para que se adapten tanto las imagenes como su posicionamiento a las peticiones que hacia el grupo de Guillermo.
+Para esta versión, la base del html/css es la misma lo único que __he tenido que hacer pequeñas modificaciones__ para que se adapten tanto las imagenes como su posicionamiento a las peticiones que hacia el grupo de Guillermo.
 
 1. Los botones que aparecian en el body derecho ahora estan en el izquierdo, y en vez de aparecer en horizontal estan en disposición vertical para ocupar menos espacio en la pantalla.
 2. El panel de control aparecia en el body izquierdo, en está versión esta en el body derecho y en vez de aparecer pegados a la parte superior, estan colocados en la parte central de la pantalla pegados al lateral derecho y los parametros apareceran por encima.
 3. Ya que esta versión esta pensada para pantallas verticales le he fijado el tamaño a las imagenes en _px_ en relacion a una pantalla de movil estandar para que queden mas o menos igual en la mayoria de dispositivos.
+
+
+###Opciones
+He añadido un html/css con la disposición de botones en la parte central que aparecerá cuando pulsen el pause y los créditos en la zona superior izquierda, mi idea es que esto aparezca por encima del juego y el juego se quede pausado y atenuado pero como no se hacerlo aun, lo pongo como un html alternativo por el momento.
