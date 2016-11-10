@@ -51,17 +51,16 @@ body
         height:100%;
         width:100%;
     }
-/*Elementos dentro del middle*/
 .nave
 {
     position:absolute;
-	top:3%;
+	top:5%;
 	left:46%;
     width:8%;
     height:15%;
 }
 /*Elementos dentro del right*/
-.playpause
+.botones
 {
     float:right;
     margin-top:5%;
@@ -69,12 +68,17 @@ body
     .play
     {
         float:left;
-        height:50%;
-        width:50%;
+        height:33%;
+        width:33%;
     }
     .opciones
     {
         float:right;
-        height:50%;
-        width:50%;
+        height:33%;
+        width:33%;
     }
+.instrucciones
+{
+    text-align:center;
+    color:yellow;
+}
