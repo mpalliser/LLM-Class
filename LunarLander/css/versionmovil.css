@@ -15,30 +15,30 @@ body
     height:80%;
     bottom:0px;
 }
-/*elementos dentro del right*/
-.playpause
+/*elementos dentro del left*/
+.botones
 {
     float:right;
     margin-top:5%;
-    width:40%;
+    width:50px;
 }
     .play
     {
         float:right;
-        height:40px;
-        width:40px;
+        height:50px;
+        width:50px;
     }
     .reiniciar
     {
         float:right;
-        height:40px;
-        width:40px;
+        height:50px;
+        width:50px;
     }
     .opciones
     {
         float:right;
-        height:40px;
-        width:40px;
+        height:50px;
+        width:50px;
     }
 /*Elementos dentro del bottom*/
 .bottom
@@ -60,7 +60,7 @@ body
     width:120px;
     height:120px;
 }
-/*Elementos dentro del left*/
+/*Elementos dentro del right*/
 .controlpanel
 {
     float:left;
@@ -88,3 +88,8 @@ body
         width:20px;
         height:20px;
     }
+.instrucciones
+{
+    text-align:center;
+    color:yellow;
+}
