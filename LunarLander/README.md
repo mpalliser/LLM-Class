@@ -42,4 +42,4 @@ Para esta versión, la base del html/css es la misma lo único que __he tenido q
 
 
 ###Opciones
-He añadido un html/css con la disposición de botones en la parte central que aparecerá cuando pulsen el pause y los créditos en la zona superior izquierda, mi idea es que esto aparezca por encima del juego y el juego se quede pausado y atenuado pero como no se hacerlo aun, lo pongo como un html alternativo por el momento.
+He añadido un html/css con la disposición de botones en la parte central que aparecerá cuando pulsen el pause y los créditos en la zona superior izquierda, mi idea es que esto aparezca por encima del juego y el juego se quede pausado y atenuado pero como no se hacerlo aun, lo pongo como un html/css mas por el momento.
