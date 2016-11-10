@@ -30,13 +30,11 @@ __En cuanto al botón pause__, cuando el juego esta funcionando la idea es que s
 
 
 
-##Versión vertical
-Para esta versión, la base del html/css es la misma lo único que __he tenido que hacer pequeñas modificaciones__ para que se adapten tanto las imagenes como su posicionamiento a las peticiones que hacia el grupo de Guillermo.
+##Versión movil
+Para esta versión, la base del html/css es la misma lo único que __he tenido que hacer pequeñas modificaciones__ para que se adapten tanto las imágenes como su posicionamiento a las peticiones que hacia el grupo de Guillermo.
 
-1. Los botones que aparecian en el body derecho ahora estan en el izquierdo, y en vez de aparecer en horizontal estan en disposición vertical para ocupar menos espacio en la pantalla.
-2. El panel de control aparecia en el body izquierdo, en está versión esta en el body derecho y en vez de aparecer pegados a la parte superior, estan colocados en la parte central de la pantalla pegados al lateral derecho y los parametros apareceran por encima.
-3. Ya que esta versión esta pensada para pantallas verticales le he fijado el tamaño a las imagenes en _px_ en relacion a una pantalla de movil estandar para que queden mas o menos igual en la mayoria de dispositivos.
-
+1.  El grupo de Guillermo pedía que los botones de play/pause/opciones aparezcan en el lateral izquierdo, pero como la mayoría de personas cogen el movil con la mano derecha los he situado en el lateral izquierdo dándoles un margen al top de 200px y un width de 50 píxeles y los iconos tienen un tamaño de 50px tanto de alto como de ancho, uno debajo del otro pegados al margen derecho.
+2. El __panel de control__ el grupo de Guillermo lo quieren que quede en la parte superior con un margen del 40% al top con los indicadores en la parte de encima en la parte derecha, y los he colocado en el lado izquierdo _(siguiendo el boceto que me pasaron por pdf)_
 
 ###Instrucciones
 En este html aparecen las instrucciones del juego así como el creador y el cliente.
