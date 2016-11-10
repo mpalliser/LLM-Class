@@ -1,0 +1,76 @@
+body,html{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: url("../img/background.png");
+}
+.left,.middle,.right{
+    float: left;
+    width: 33.3%;
+    height: 70%;
+    bottom: 0px;
+}
+/*elementos dentro del left*/
+.controlpanel{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+}
+    .gasolina{
+        height: 10%;
+        width: 10%;
+    }
+    .velocidad{
+        height: 10%;
+        width: 10%;
+    }
+    .altura{
+        height: 10%;
+        width: 10%;
+    }
+/*Elementos dentro del bottom*/
+.bottom{
+    position: fixed;
+    height: 30%;
+    width: 100%;
+    bottom: 0px;
+}
+    .luna{
+        height: 100%;
+        width: 100%;
+    }
+.nave{
+    position: absolute;
+	top: 5%;
+	left: 46%;
+    width: 8%;
+    height: 15%;
+}
+/*Elementos dentro del right*/
+.botones{
+    float: right;
+    margin-top: 5%;
+    width: 80%;
+}
+    .play{
+        float: left;
+        height: 33%;
+        width: 33%;
+    }
+    .reiniciar{
+        float: left;
+        height: 33%;
+        width: 33%;
+    }
+    .opciones{
+        float: right;
+        height: 33%;
+        width: 33%;
+    }
+.instrucciones{
+    text-align: center;
+    color: yellow;
+}
