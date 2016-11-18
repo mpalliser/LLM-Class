@@ -1,0 +1,16 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: url("../img/background.png");
+}
+.instrucciones{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    color: yellow;
+}
