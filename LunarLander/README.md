@@ -24,7 +24,6 @@ En esta sección la única instrucción que me dan es que __la nave__ quede en e
 
 ###Body derecho
 En el body derecho colocaré __los botones__ _play/pause/reiniciar/opciones_. El grupo de Guillermo me pide que aparezcan el boton play reiniciar y opciones mientras el juego esta parado y cuando el juego esta en funcionamiento el botón de play se sustituye por el botón de pause y el botón de play desaparece.
-He omitido el boton de reiniciar, ya que cuando el juego esta parado no es necesario ese boton.
 
 __En cuanto al botón pause__, cuando el juego esta funcionando la idea es que si pulsamos el pause se atenúe el fondo y aparezcan los botones play, opciones y reiniciar en el centro de la pantalla.
 
@@ -33,8 +32,8 @@ __En cuanto al botón pause__, cuando el juego esta funcionando la idea es que s
 ##Versión movil
 Para esta versión, la base del html/css es la misma lo único que __he tenido que hacer pequeñas modificaciones__ para que se adapten tanto las imágenes como su posicionamiento a las peticiones que hacia el grupo de Guillermo.
 
-1.  El grupo de Guillermo pedía que los botones de play/pause/opciones aparezcan en el lateral izquierdo, pero como la mayoría de personas cogen el movil con la mano derecha los he situado en el lateral izquierdo dándoles un margen al top de 200px y un width de 50 píxeles y los iconos tienen un tamaño de 50px tanto de alto como de ancho, uno debajo del otro pegados al margen derecho.
-2. El __panel de control__ el grupo de Guillermo lo quieren que quede en la parte superior con un margen del 40% al top con los indicadores en la parte de encima en la parte derecha, y los he colocado en el lado izquierdo _(siguiendo el boceto que me pasaron por pdf)_
+1.  El grupo de Guillermo pedía que los botones de play/pause/opciones aparezcan en el lateral izquierdo, pero como la mayoría de personas cogen el móvil con la mano derecha los he situado en el lateral izquierdo y les he proporcionado un tamaño suficiente para que se puedan pulsar sin dificultades.
+2. Para los indicadores del__panel de control__ no me pasan ninguna instrucción, así que me he decidido por colocar unos indicadores en forma de "barra" que se incrementarán o disminuirán dependiendo cada uno de su característica (gasolina, velocidad, altura)
 
 ###Instrucciones
 En este html aparecen las instrucciones del juego así como el creador y el cliente.
