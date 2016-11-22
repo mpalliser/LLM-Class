@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/versionEscritorio.css">
-<title>Lunar Lander</title>
+    <link rel="stylesheet" href="css/versionMovil.css">
+    <title>Lunar Lander</title>
+    <style>
+        a:link    {color: yellow; background-color: transparent; text-decoration: none}
+        a:visited {color: yellow; background-color: transparent; text-decoration: none}
+        a:hover   {color: springgreen; background-color: transparent; text-decoration: underline}
+        a:active  {color: springgreen; background-color: transparent; text-decoration: underline}
+    </style> 
 </head>
 <body>
+    <div class="menu" style="display: block;">
+        <h1> Opciones </h1>
+        <img class="pl" src="img/play.png">
+        <img class="rei" src="img/reiniciar.png">
+        <a href="instrucciones.html"><img class="info" src="img/info.png"></a>
+        <div class="acercade"><a href="instrucciones.html"><h3>Acerca de </a></div>
+    </div>
     <div class="left">
         <div class="controlpanel">
-            <img class="gasolina" src="img/gasolina.png">
-            <img class="velocidad" src="img/velocidad.png">
-            <img class="altura" src="img/altura.png">
+            <img class="gasolina" src="img/gasolina2.png">
+            <img class="velocidad" src="img/velocidad2.png">
+            <img class="altura" src="img/altura2.png">
         </div>
         <div class="contadorGasolina"></div>
         <div class="contadorVelocidad"></div>
@@ -19,12 +32,10 @@
         <img class="nave" src="img/nave.png">
     </div>
     <div class="right">
-        <div class="botones">
+        <div class="botones" style="display: block";>
             <img class="play" src="img/play.png">
             <img class="reiniciar" src="img/reiniciar.png">
-            <a href="opciones.html">
-                <img class="opciones" src="img/opciones.png">
-            </a>
+            <img class="opciones" src="img/opciones.png">
         </div>
     </div>
     <div class="bottom">
