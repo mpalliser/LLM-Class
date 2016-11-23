@@ -70,10 +70,10 @@ body {
     height: 80%;
     width: 15%;
     background-color: yellow;
-    border-radius: 11px 11px 11px 11px;
-    -moz-border-radius: 11px 11px 11px 11px;
-    -webkit-border-radius: 11px 11px 11px 11px;
-    border: 0px solid #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #a1961a;
 }
 .contadorVelocidad{
     float: left;
@@ -83,10 +83,10 @@ body {
     height: 80%;
     width: 15%;
     background-color: red;
-    border-radius: 11px 11px 11px 11px;
-    -moz-border-radius: 11px 11px 11px 11px;
-    -webkit-border-radius: 11px 11px 11px 11px;
-    border: 0px solid #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #a1961a;
 }
 .contadorAltura{
     float: left;
@@ -94,10 +94,10 @@ body {
     height: 80%;
     width: 15%;
     background-color: darkorange;
-    border-radius: 11px 11px 11px 11px;
-    -moz-border-radius: 11px 11px 11px 11px;
-    -webkit-border-radius: 11px 11px 11px 11px;
-    border: 0px solid #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #a1961a;
 }
 .controlpanel{
     float: left;
