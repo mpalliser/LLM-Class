@@ -126,7 +126,7 @@ body {
 
 
 .menu{
-    height: 40%;
+    height: 30%;
     width: 80%;
     background-color: darkslategray;
     filter: opacity(50%);
@@ -138,9 +138,10 @@ body {
     border-style: solid;
     border-radius: 10px 10px 10px 10px;
     z-index: 2;
+    font-size: 2vmax;
 }
 .pl,.rei,.info, .acercade{
-    height: 20%;
+    height: 40%;
     margin-left: 2%;
     margin-right: 2%;
 }
