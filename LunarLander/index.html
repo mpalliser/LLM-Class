@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/versionEscritorio.css">
     <title>Lunar Lander</title>
-    <style>
-        a:link    {color: yellow; background-color: transparent; text-decoration: none}
-        a:visited {color: yellow; background-color: transparent; text-decoration: none}
-        a:hover   {color: springgreen; background-color: transparent; text-decoration: underline}
-        a:active  {color: springgreen; background-color: transparent; text-decoration: underline}
-    </style> 
+    <meta charset="UTF-8">
+    <meta name="desctiption" content>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 451px)" href="css/d.css">
+    <link rel="stylesheet" media="screen and (max-width: 450px)" href="css/m.css">
+    <script src="js/js.js"></script>
 </head>
 <body>
-    <div class="menu" style="display: block;">
-        <h1> Opciones </h1>
-        <img class="pl" src="img/play.png">
-        <img class="rei" src="img/reiniciar.png">
-        <a href="instrucciones.html"><img class="info" src="img/info.png"></a>
-        <div class="acercade"><a href="instrucciones.html"><h3>Acerca de </a></div>
+    <div id="tierra">
+        <img src="img/tierra.png" alt="tierra">
     </div>
+
     <div class="left">
         <div class="controlpanel">
-            <img class="gasolina" src="img/gasolina2.png">
-            <img class="velocidad" src="img/velocidad2.png">
-            <img class="altura" src="img/altura2.png">
+            <img class="cpItem" id="gaso" title="Contador de gasolina" src="img/gasolina2.png">
+            <img class="cpItem" id="vRed" title="Contador de velocidad" src="img/velocidadRed.png" style="display: none;">
+            <img class="cpItem" id="vGreen" title="Contador de velocidad" src="img/velocidadGreen.png" >
         </div>
-        <div class="contadorGasolina"></div>
-        <div class="contadorVelocidad"></div>
-        <div class="contadorAltura"></div>
-    </div>
-    <div class="middle">
-        <img class="nave" src="img/nave.png">
+        <div class="contador" id="contadorGasolina"></div>
+        <div class="contador" id="contadorVelocidad"></div>
     </div>
     <div class="right">
-        <div class="botones" style="display: block";>
-            <img class="play" src="img/play.png">
-            <img class="reiniciar" src="img/reiniciar.png">
-            <img class="opciones" src="img/opciones.png">
+        <div id="ubicacionBotones">
+            <img class="boton" id="opciones" title="Opciones" src="img/opciones.png" >
+            <img class="boton" id="reiniciar" title="Reiniciar" src="img/reiniciar.png" style="display: none">
+            <img class="boton" id="play" src="img/play.png" title="Play" style="display: none;">
+            <img class="boton" id="pause" title="Pause" src="img/pause.png" >
+            <div id="botones2"> 
+                <img class="boton" title="Instrucciones" id="info" src="img/info.png" style="display: none">
+                <img class="boton" id="acercade" title="Acerca de:" src="img/acercade.png" style="display: none" ></div>
         </div>
+
     </div>
-    <div class="bottom">
-        <img class="luna" src="img/luna.png">
+    <div id="naveDiv">
+        
+        <img class="nave" id="naveApagada" src="img/nave.png" >
+        <img class="nave" id="navEncendida" src="img/naveFuego.png" style="display: none;">
+
+        <img class="nave" id="navExplosion" src="img/exploit.gif" style="display: none;">
     </div>
+    <div id="bottom">
+        <img id="luna" src="img/luna.png">           
+    </div>
+    <div id="creditos" style="display: none;">
+        <h2>ACERCA DEL JUEGO</h1>
+        <b> Autor:</b> Mariano Palliser.<br>
+        <b>Cliente:</b> Guillermo Cirer.<br>
+        <b>Fecha de realización:</b> Ultimo trimestre 2016.<br>
+        <h4>DESARROLLO</h4>
+        El juego ha sido desarrollado utilizando código javascript,html y css. Ademas para crear y/o tratar alguna de las imágenes he utilizado Gimp.
+        <h4> BIBLIOGRAFÍA </h4>
+        <ul>
+            <li>Dudas de codigo html/css: http://www.w3schools.com/html/</li>
+            <li>Dudas de código javascript: http://www.stackoverflow.com</li>
+            <li>Creación/edición de imágenes: http://www.gimp.org.es </li>
+            <li>Reducción del tamaño de las imágenes: http://www.tinypng.com</li>
+            <li>Para alguna de las ideas del proyecto me he basado en juegos de algunos compañeros como (Lluis Cifre, Guillermo Cirer)
+
+            <div id="creditosVolver"><img src="img/reiniciar.png">  </div>
+    </div>
+    <div id="instrucciones" style="display: none">
+        <h1> Instrucciones</h1>
+        <p>Bienvenido/a al juego web Lunar Lander. El juego consiste en intentar aterrizar la nave manteniendo el contador de velocidad en verde, para aterrizar la nave sin que explote. Debes tener en cuenta que la gasolina es limitada.</p>
+        <br>Puedes usar los botones en pantalla o bien los controles por teclado.
+        <h2> Controles </h2>
+        <ul>
+            <li>Barra espaciadora: Acelerar.</li>
+            <li>Tecla E: Inicia el juego.</li>
+            <li>Tecla R: Reinicia el juego.</li>
+            <li>Tecla P: Pausar Juego.</li>
+            <li>Tecla O: Opciones.</li>
+            <li>Tecla I: Instrucciones.</li>
+
+        <img id="instruccionesVolver" src="img/reiniciar.png">  
+    </div>
+    <div id="opacity" style="display: none"></div>
 </body> 
 </html> 
