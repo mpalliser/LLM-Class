@@ -83,6 +83,7 @@ window.onload = function(){
 				document.getElementById("pause").style.display = "block";
 				document.getElementById("opacity").style.display = "none";
 				start();
+				motorOf();
 	}
 
 
@@ -129,12 +130,12 @@ window.onload = function(){
 //Empezar a mover nave
 	start();
 
-document.onclick = function(){
-	if (a==g){
-		motorOn();
-	}else {
-		motorOff();
-	}
+	document.onclick = function(){
+		if (a==g){
+			motorOn();
+		}else {
+			motorOff();
+		}
 }
 
 // Propulsar nave con el boton SPACE
