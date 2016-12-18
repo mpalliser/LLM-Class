@@ -129,11 +129,20 @@ window.onload = function(){
 //Empezar a mover nave
 	start();
 
-	
+document.onclick = function(){
+	if (a==g){
+		motorOn();
+	}else {
+		motorOff();
+	}
+}
+
+// Propulsar nave con el boton SPACE
 	addEventListener("keydown", function(event) {
 		if (event.keyCode == 32){
 			motorOn();
 	}});
+// Dejar de propulsar al soltar el boton SPACE
 	addEventListener("keyup", function(event) {
 		event.keyCode == 32;
 		motorOff();
