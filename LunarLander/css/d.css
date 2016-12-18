@@ -124,7 +124,7 @@ body {
 
 
 #creditos{
-    padding: 5%;
+    padding: 3%;
     margin: 10%;
     background: darkslategray;  
     filter: opacity(75%);
@@ -149,7 +149,7 @@ body {
     cursor: pointer;
 }
 #instrucciones{ 
-    padding: 5%;
+    padding: 3%;
     margin: 10%;
     background: darkslategray; 
     filter: opacity(75%);
