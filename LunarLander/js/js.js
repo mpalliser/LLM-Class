@@ -189,14 +189,24 @@ function moverNave(){
 		motor = false;
 		motorApagado = false;
 		document.getElementById("naveApagada").style.display = "none";
+		var boton = document.getElementsByClassName("boton");
+		for (var i=0;i<boton.length; i++) {
+				boton[i].style.display = "none";
+		}
 		document.getElementById("navEncendida").style.display = "none";
 		document.getElementById("navExplosion").style.display = "block";
+		document.getElementById("youlose").style.display = "block";
 	}else {
 		stop();
 		motor = false;
 		motorApago = false;
 		document.getElementById("navEncendida").style.display = "none";
-		document.getElementById("navExplosion").style.display = "none";
 		document.getElementById("naveApagada").style.display = "block";
+		document.getElementById("congrats").style.display = "block";
+		document.getElementById("navExplosion").style.display = "none";
+		var boton = document.getElementsByClassName("boton");
+		for (var i=0;i<boton.length; i++) {
+				boton[i].style.display = "none";
+		}
 	}
 }
