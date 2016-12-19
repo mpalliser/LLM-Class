@@ -51,11 +51,10 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/tierraTratada.png)
 
 
-### Una pequeña preview de como se ve el juego.
+### Una pequeña preview de como se ve el juego // juego pausado.
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/pantalla.png)
-
-### Preview juego pausado.
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/apagada.png)
+
 ### Preview versión para móvil.
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/movil.png)
 
