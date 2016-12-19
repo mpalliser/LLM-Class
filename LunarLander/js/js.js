@@ -138,11 +138,82 @@ window.onload = function(){
 		}
 }
 
-// Propulsar nave con el boton SPACE
+// BOTONES
 	addEventListener("keydown", function(event) {
-		if (event.keyCode == 32){
+		//SPACE encender motor
+		if (event.keyCode == 32){ 
 			motorOn();
-	}});
+		// R reiniciar
+		}else if (event.keyCode == 82){
+			location.reload();
+		// M Acerca de
+		}else if (event.keyCode == 77){
+			motor = false;
+			stop();
+			motorOff();
+			document.getElementById("opacity").style.display = "block";
+			document.getElementById("creditos").style.display = "block";
+			document.getElementById("instrucciones").style.display = "none";
+			var boton = document.getElementsByClassName("boton");
+			for (var i=0;i<boton.length; i++) {
+				boton[i].style.display = "none";
+				}
+		// O Opciones
+		}else if (event.keyCode == 79){
+			motor = false;
+			var boton = document.getElementsByClassName("boton");
+				for (var i=0;i<boton.length; i++) {
+					if (i != 3){
+					boton[i].style.display = "block";
+					}else {
+						boton[i].style.display = "none";
+				}}
+			document.getElementById("opacity").style.display = "block";
+			document.getElementById("instrucciones").style.display = "none";
+			stop();
+			motorOff();
+		// P  pause
+		}else if (event.keyCode == 80){
+			if (motor == true){
+				motor = false;
+				var boton = document.getElementsByClassName("boton");
+				for (var i=0;i<boton.length; i++) {
+					if (i == 0 || i == 2){
+					boton[i].style.display = "block";
+					}else {
+						boton[i].style.display = "none";
+				}}
+				document.getElementById("opacity").style.display = "block";
+				stop();
+				motorOff();
+			}else if (motor == false){
+				motor = true;
+				var boton = document.getElementsByClassName("boton");
+				for (var i=0;i<boton.length; i++) {
+					if (i == 0 || i == 3){
+					boton[i].style.display = "block";
+					}else {
+						boton[i].style.display = "none";
+				}}				
+				document.getElementById("opacity").style.display = "none";
+				start();
+				motorOn();
+				document.getElementById("instrucciones").style.display = "none";
+			}
+		// I instrucciones
+		}else if (event.keyCode == 73){
+			motor = false;
+			stop();
+			motorOff();
+			document.getElementById("creditos").style.display = "none";
+			document.getElementById("opacity").style.display = "block";
+			document.getElementById("instrucciones").style.display = "block";
+			var boton = document.getElementsByClassName("boton");
+			for (var i=0;i<boton.length; i++) {
+				boton[i].style.display = "none";
+				}
+			}	
+	});
 // Dejar de propulsar al soltar el boton SPACE
 	addEventListener("keyup", function(event) {
 		event.keyCode == 32;
