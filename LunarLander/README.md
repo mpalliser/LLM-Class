@@ -45,4 +45,12 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
 * He añadido un Div con opacity para que cuando el juego esta pausado se atenue todo menos los botones.
 
-*
+### Una pequeña preview de como se ve el juego.
+![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/pantalla.png)
+
+### Preview juego pausado.
+![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/apagada.png)
+### Preview versión para móvil.
+![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/movil.png)
+
+
