@@ -6,13 +6,17 @@ __Autor__: Mariano Palliser.
 __Cliente__: Guillermo cirer.
 
 
+
 ###DESCRIPCIÓN CLIENTE:
 
 Para realizar el trabajo, el grupo de Guillermo me facilita varias opciones en cuanto a la colocación de los elementos en el __HTML__.
 
+
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/fondo1.png)
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/fondo2.png)
 _(distribuciones posibles del html facilitadas por el grupo de Guillermo)_
+
+
 
 A partir de estas dos opciones me he decantado por la primera ya que me pareció la forma mas sencilla de poder distribuir los distintos elementos en la pantalla de una forma ordenada.
 
@@ -51,11 +55,10 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/tierraTratada.png)
 
 
-### Una pequeña preview de como se ve el juego.
+### Una pequeña preview de como se ve el juego // juego pausado.
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/pantalla.png)
-
-### Preview juego pausado.
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/apagada.png)
+
 ### Preview versión para móvil.
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/movil.png)
 
