@@ -28,8 +28,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 * La imágen de la nave que me proporcionan es de un tamaño distinto a la nave con el motor encendido, así que he redimensionado la imagen con el motor encendido al mismo tamaño que la nave apagada para que no cree conflicto de tamaños al cambiar de una a otra.
 
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/nave.png)
-
-![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmg/naveFuego.png)
+![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/naveFuego.png)
 
 * En los indicadores de velocidad, altura y gasolina no indican como tienen que ser los "contadores" así que he creado los contadores de gasolina y velocidad que son un div con un degradado para darle mejor apariencia.
   * Contador de Gasolina: Va desde 100 hasta 0 en relación al tiempo que el motor esta encendido.
