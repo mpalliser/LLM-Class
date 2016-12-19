@@ -170,6 +170,7 @@ window.onload = function(){
 				}}
 			document.getElementById("opacity").style.display = "block";
 			document.getElementById("instrucciones").style.display = "none";
+			document.getElementById("creditos").style.display = "none";
 			stop();
 			motorOff();
 		// P  pause
@@ -199,6 +200,8 @@ window.onload = function(){
 				start();
 				motorOn();
 				document.getElementById("instrucciones").style.display = "none";
+				document.getElementById("creditos").style.display = "none";
+
 			}
 		// I instrucciones
 		}else if (event.keyCode == 73){
