@@ -45,8 +45,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
 * He añadido un *div* del 100% con opacity para que cuando el juego esta pausado se atenue todo menos los botones.
 * A la imágen de la tierra añadida le he tratado los colores usando gimp.
-![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/tierra.png)
-![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/imgmd/tierraTratada.png)
+
 
 
 ### Una pequeña preview de como se ve el juego.
