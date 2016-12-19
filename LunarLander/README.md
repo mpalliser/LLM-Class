@@ -38,8 +38,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
   * Contador de Altura: Este contador lo he omitido ya que me parece redundante, el jugador ya tiene la nave como referencia de la altura que le falta para llegar a la luna, no necesita otro indicador.
 
-* En cuanto a los botones, he tenido que añadir dos botones. Uno para las instrucciones     
- y otro para el acerca de. Los he tenido que crear desde 0 con el Gimp, y darles el mismo color que los que ya me facilitaron.
+* En cuanto a los botones, los he colocado en el lado derecho de la pantalla. También he tenido que añadir dos botones. Uno para las instrucciones y otro para el acerca de. Los he tenido que crear desde 0 con el Gimp, y darles el mismo color que los que ya me facilitaron.
 
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/info.png)
 ![alt tag](https://github.com/mpalliser/LLM-Class/blob/master/LunarLander/img/acercade.png)
