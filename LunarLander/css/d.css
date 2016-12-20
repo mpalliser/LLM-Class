@@ -229,7 +229,7 @@ button{
     width: 100%;
     z-index: 3;
 }
-h3:link    {color: yellow; background-color: transparent; text-decoration: none}
-h3:visited {color: red; background-color: transparent; text-decoration: none}
-h3:hover   {color: springgreen; background-color: transparent; text-decoration: underline}
-h3:active  {color: red; background-color: transparent; text-decoration: underline}
+a:link    {color: springgreen; background-color: transparent; text-decoration: none}
+a:visited {color: springgreen; background-color: transparent; text-decoration: none}
+a:hover   {color: springgreen; background-color: transparent; text-decoration: underline}
+a:active  {color: springgreen; background-color: transparent; text-decoration: underline}
