@@ -54,6 +54,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/tierra.png)
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/tierraTratada.png)
 
+* Para crear la imagen de la explosión de la nave he tenido que modificar las imagenes como se ve en el [directorio](https://github.com/mpalliser/LunarLander/blob/master/img/explosion/)
 
 ### Una pequeña preview de como se ve el juego // juego pausado.
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/pantalla.png)
