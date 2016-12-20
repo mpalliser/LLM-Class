@@ -22,7 +22,7 @@ A partir de estas dos opciones me he decantado por la primera ya que me pareció
 
 También incluyen un mockup de como quieren que quede el juego en la versión móvil, del cual me he basado para crear el juego. Todas las imágenes del mockup me las proporcionan por separado y ya sin fondo.
 
-![alt tag](https://github.com/palliser/LunarLander/blob/master/img/imgmd/mockup.jpg)
+![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/mockup.jpg)
 
 
 ###DESARROLLO DEL PROYECTO:
