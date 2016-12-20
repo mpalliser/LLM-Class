@@ -61,6 +61,8 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 * El juego ha sido creado utilizando Firefox.
 * Al iniciar el juego en Chrome los botones de retroceso de instrucciones / Creditos no aparecen en la posición que deberían.
 * Con el juego pausado, al volver al juego, el motor se enciende automaticamente.
+
+
 ### Una pequeña preview de como se ve el juego // juego pausado.
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/pantalla.png)
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/apagada.png)
