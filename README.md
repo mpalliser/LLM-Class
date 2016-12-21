@@ -61,6 +61,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 ####A la hora de testear el juego he encontrado varios bugs que no he podido resolver como:
 
 * El juego ha sido creado utilizando Firefox, al iniciar el juego en Chrome los botones de retroceso de instrucciones / Acerca de, no aparecen en la posición que deberían.
+* Utilizando el click para propulsar la nave, al llegar al limite establecido, la nave apaga el motor pero la gasolina sigue consumiendose.
 
 
 ### Una pequeña preview de como se ve el juego // juego pausado.
