@@ -36,12 +36,13 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
 * En los indicadores de velocidad, altura y gasolina no indican como tienen que ser los "contadores" así que he creado los contadores de gasolina y velocidad que son un div con un degradado para darle mejor apariencia.
   * Contador de Gasolina: Va desde 100 hasta 0 en relación al tiempo que el motor esta encendido.
-  * Contador de Velocidad: Para este contador la altura es (v * 6,9) ya que el máximo de v(velocidad) del juego es 14,5 aprox, de este modo al llegar a 14,5 v que es el tope el div estará lleno al 100%. Para mayor facilidad, __he añadido esta imagen en color verde/rojo así si la velocidad es inferior a 5 esta aparece verde, y si es mayor en rojo.__
+  * Contador de Velocidad: Para este contador la altura es (v * 6,9) ya que el máximo de v(velocidad) del juego es 14,5 aprox, de este modo al llegar a 14,5 v que es el tope el div estará lleno al 100%. 
+  * Para mayor facilidad, __he modificado la imagen de velocidad, en color verde/rojo así, si la velocidad es inferior a 5 tanto la imagen como el contador de velocidad aparecen en verde, y si es mayor que 5 aparecen en rojo.__
   
     ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/velocidadGreen.png)
     ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/velocidadRed.png)
 
-  * Contador de Altura: Este contador lo he omitido ya que me parece redundante, el jugador ya tiene la nave como referencia de la altura que le falta para llegar a la luna, no necesita otro indicador.
+  * Contador de Altura: Este contador lo he omitido ya que me parece redundante, el jugador ya tiene la nave como referencia de la altura que le falta para llegar a la luna, no necesita otro indicador, que ademas puede confundir al tener tres contadores "barras" que se mueven a parte también de la propia nave que va cayendo.
 
 * En cuanto a los botones, los he colocado en el lado derecho de la pantalla. También he tenido que añadir dos botones. Uno para las instrucciones y otro para el acerca de. Los he tenido que crear desde 0 con el Gimp, y darles el mismo color que los que ya me facilitaron.
 
