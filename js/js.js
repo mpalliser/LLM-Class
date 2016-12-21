@@ -83,7 +83,7 @@ window.onload = function(){
 				document.getElementById("pause").style.display = "block";
 				document.getElementById("opacity").style.display = "none";
 				start();
-				motorOf();
+				motorOn();
 	}
 
 
@@ -197,10 +197,10 @@ window.onload = function(){
 						boton[i].style.display = "none";
 				}}				
 				document.getElementById("opacity").style.display = "none";
-				start();
-				motorOn();
 				document.getElementById("instrucciones").style.display = "none";
 				document.getElementById("creditos").style.display = "none";
+				start();
+				motorOn();
 
 			}
 		// I instrucciones
