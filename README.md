@@ -55,7 +55,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/tierra.png)
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/tierraTratada.png)
 
-* Para crear la imagen de la explosión de la nave he tenido que modificar las imagenes como se ve en el siguiente [directorio](https://github.com/mpalliser/LunarLander/blob/master/img/explosion/)
+* Para crear la imagen de la explosión de la nave he tenido que crear un gift a partir de una serie de imagenes de la nave modificadas con el Gimp, las imagenes que forman el gift estan en el siguiente [directorio](https://github.com/mpalliser/LunarLander/blob/master/img/explosion/)
 
 ####A la hora de testear el juego he encontrado varios bugs que no he podido resolver como:
 
