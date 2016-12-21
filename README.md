@@ -59,9 +59,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
 ####A la hora de testear el juego he encontrado varios bugs que no he podido resolver como:
 
-* El juego ha sido creado utilizando Firefox.
-* Al iniciar el juego en Chrome los botones de retroceso de instrucciones / Acerca de, no aparecen en la posición que deberían.
-* Con el juego pausado, al volver al juego, el motor se enciende automáticamente.
+* El juego ha sido creado utilizando Firefox, al iniciar el juego en Chrome los botones de retroceso de instrucciones / Acerca de, no aparecen en la posición que deberían.
 
 
 ### Una pequeña preview de como se ve el juego // juego pausado.
