@@ -29,7 +29,7 @@ También incluyen un mockup de como quieren que quede el juego en la versión m�
 
 Una vez claras las bases del proyecto, he tenido que añadir o realizar varias tareas como:
 
-* La imágen de la nave que me proporcionan es de un tamaño distinto a la nave con el motor encendido, así que he redimensionado la imagen con el motor encendido al mismo tamaño que la nave apagada para que no cree conflicto de tamaños al cambiar de una a otra.
+* La imagen de la nave que me proporcionan es de un tamaño distinto a la nave con el motor encendido, así que he re-dimensionado la imagen con el motor encendido al mismo tamaño que la nave apagada para que no cree conflicto de tamaños al cambiar de una a otra.
 
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/nave.png)
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/naveFuego.png)
@@ -48,8 +48,8 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/info.png)
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/acercade.png)
 
-* He añadido un *div* del 100% con opacity para que cuando el juego esta pausado se atenue todo menos los botones.
-* A la imágen de la tierra añadida le he tratado los colores usando gimp.
+* He añadido un *div* del 100% con opacity para que cuando el juego esta pausado se atenúe todo menos los botones.
+* A la imagen de la tierra añadida le he tratado los colores usando gimp.
 
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/tierra.png)
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/tierraTratada.png)
@@ -60,7 +60,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
 * El juego ha sido creado utilizando Firefox.
 * Al iniciar el juego en Chrome los botones de retroceso de instrucciones / Acerca de, no aparecen en la posición que deberían.
-* Con el juego pausado, al volver al juego, el motor se enciende automaticamente.
+* Con el juego pausado, al volver al juego, el motor se enciende automáticamente.
 
 
 ### Una pequeña preview de como se ve el juego // juego pausado.
