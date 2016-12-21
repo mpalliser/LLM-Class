@@ -44,12 +44,12 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
   * Contador de Altura: Este contador lo he omitido ya que me parece redundante, el jugador ya tiene la nave como referencia de la altura que le falta para llegar a la luna, no necesita otro indicador, que ademas puede confundir al tener tres contadores "barras" que se mueven a parte también de la propia nave que va cayendo.
 
-* En cuanto a los botones, los he colocado en el lado derecho de la pantalla. También he tenido que añadir dos botones. Uno para las instrucciones y otro para el acerca de. Los he tenido que crear desde 0 con el Gimp, y darles el mismo color que los que ya me facilitaron.
+* En cuanto a los botones, los he colocado en el lado derecho de la pantalla. También he tenido que añadir dos botones. Uno para las instrucciones y otro para el acerca de. __Los he creado desde 0 con el Gimp__, y les he dado el mismo color que los botones que me facilitaron.
 
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/info.png)
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/acercade.png)
 
-* He añadido un *div* del 100% con opacity para que cuando el juego esta pausado se atenúe todo menos los botones.
+* He añadido un *div* del 100% con opacity para que se atenúe el juego a excepción de los botones.
 * A la imagen de la tierra añadida le he tratado los colores usando gimp.
 
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/tierra.png)
