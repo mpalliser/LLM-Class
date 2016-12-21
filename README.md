@@ -58,7 +58,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 
 * Para crear la imagen de la explosión de la nave he tenido que crear un gift a partir de una serie de imágenes de la nave modificadas con el Gimp, las imágenes que forman el gift están en el siguiente [directorio](https://github.com/mpalliser/LunarLander/blob/master/img/explosion/)
 
-####A la hora de testear el juego he encontrado varios bugs que no he podido resolver como:
+#### Bugs conocidos:
 
 * El juego ha sido creado utilizando Firefox, al iniciar el juego en Chrome los botones de retroceso de instrucciones / Acerca de, no aparecen en la posición que deberían.
 * Utilizando el click para propulsar la nave, al llegar al limite establecido, la nave apaga el motor pero la gasolina sigue consumiendose.
