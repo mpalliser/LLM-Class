@@ -35,6 +35,7 @@ Una vez claras las bases del proyecto, he tenido que añadir o realizar varias t
 ![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/naveFuego.png)
 
 * En los indicadores de velocidad, altura y gasolina no indican como tienen que ser los "contadores" así que he creado los contadores de gasolina y velocidad que son un div con un degradado para darle mejor apariencia.
+![alt tag](https://github.com/mpalliser/LunarLander/blob/master/img/imgmd/contadores.png)
   * Contador de Gasolina: Va desde 100 hasta 0 en relación al tiempo que el motor esta encendido.
   * Contador de Velocidad: Para este contador la altura es (v * 6,9) ya que el máximo de v(velocidad) del juego es 14,5 aprox, de este modo al llegar a 14,5 v que es el tope el div estará lleno al 100%. 
   * Para mayor facilidad, __he modificado la imagen de velocidad, en color verde/rojo así, si la velocidad es inferior a 5 tanto la imagen como el contador de velocidad aparecen en verde, y si es mayor que 5 aparecen en rojo.__
