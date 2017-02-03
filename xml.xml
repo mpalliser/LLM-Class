@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntes>
+ <pregunta tipus="text">
+  <text>Quin és el color del cel?</text>
+  <resposta>blau</resposta>
+ </pregunta>
+ <pregunta tipus="select">
+  <text>Tria l'opció vàlida</text>
+  <opcio>Aquesta no</opcio>
+  <opcio>Aquesta tampoc</opcio>  
+  <opcio>Aquesta si</opcio>
+  <resposta>2</resposta>
+ </pregunta>
+</preguntes>
