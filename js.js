@@ -12,3 +12,4 @@ xhttp.send();
 function gestionarXml(dadesXml){
 var xmlDoc = dadesXml.responseXML;
 }
+}
