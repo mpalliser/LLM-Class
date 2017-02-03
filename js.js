@@ -11,6 +11,6 @@ xhttp.send();
 
 function gestionarXml(dadesXml){
 var xmlDoc = dadesXml.responseXML;
-document.getElementById("r1").innerHTML = xmlDoc.getElementById("1").childNodes[1].innerHTML;
+document.getElementById("p1").innerHTML = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 
 }
