@@ -1,9 +1,14 @@
-var textXML = '<preguntes><pregunta tipus="text"><text>Quin és el color del cel?</text>'+
-'<resposta>blau</resposta></pregunta></preguntes>';
+var xhttp = new XMLHttpRequest();
 
-parser = new DOMParser();
-xmlDoc = parser.parseFromString(textXML ,"text/xml");
-document.getElementById("p1").innerHTML = xmlDoc.getElementsByTagName("text")[0].childNodes[0].nodeValue;
-document.getElementById("t1").innerHTML = xmlDoc.getElementsByTagName("pregunta")[0].getAttribute("tipus");
-document.getElementById("r1").innerHTML = xmlDoc.getElementsByTagName("resposta")[0].childNodes[0].nodeValue;
+xhttp.onreadystatechange = function() {
+ if (this.readyState == 4 && this.status == 200) {
+  gestionarXml(this);
+ }
+};
+xhttp.open("GET", "preguntes.xml", true);
+xhttp.send();
 
+function gestionarXml(dadesXml){
+var xmlDoc = dadesXml.responseXML;
+...
+}
