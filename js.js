@@ -6,10 +6,10 @@ xhttp.onreadystatechange = function() {
   gestionarXml(this);
  }
 };
-xhttp.open("GET", "xml.xml", true);
+xhttp.open("GET", "preguntes.xml", true);
 xhttp.send();
 
 function gestionarXml(dadesXml){
 var xmlDoc = dadesXml.responseXML;
-}
+
 }
